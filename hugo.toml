@@ -1,9 +1,39 @@
 baseURL = "http://localhost:1313/"
 languageCode = "en-us"
-title = "My Cloud & DevOps Journey"
+title = "YOUR BLOG NAME"
 theme = "PaperMod"
 
 [params]
   defaultTheme = "auto"
   ShowReadingTime = true
   ShowCodeCopyButtons = true
+  ShowToc = true
+
+  [params.homeInfoParams]
+    Title = "Hi, I'm YOUR NAME"
+    Content = "One or two sentences: who you are, what you're learning, what you build."
+
+  [[params.socialIcons]]
+    name = "github"
+    url = "https://github.com/YOUR_USERNAME"
+
+  [[params.socialIcons]]
+    name = "linkedin"
+    url = "https://www.linkedin.com/in/YOUR_PROFILE"
+
+[menu]
+  [[menu.main]]
+    identifier = "posts"
+    name = "Posts"
+    url = "/posts/"
+    weight = 10
+  [[menu.main]]
+    identifier = "about"
+    name = "About"
+    url = "/about/"
+    weight = 20
+  [[menu.main]]
+    identifier = "tags"
+    name = "Tags"
+    url = "/tags/"
+    weight = 30
