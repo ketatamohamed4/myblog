@@ -1,0 +1,9 @@
+baseURL = "http://localhost:1313/"
+languageCode = "en-us"
+title = "My Cloud & DevOps Journey"
+theme = "PaperMod"
+
+[params]
+  defaultTheme = "auto"
+  ShowReadingTime = true
+  ShowCodeCopyButtons = true
