@@ -1,4 +1,4 @@
-baseURL = "https://mketata.vercel.app"
+baseURL = "https://mketata.vercel.app/"
 languageCode = "en-us"
 title = "Mohamed Ketata"
 theme = "PaperMod"
@@ -8,18 +8,23 @@ theme = "PaperMod"
   ShowReadingTime = true
   ShowCodeCopyButtons = true
   ShowToc = true
+  description = "Mohamed Ketata: cloud, DevOps and embedded projects, with a focus on troubleshooting."
 
   [params.homeInfoParams]
     Title = "Hi, I'm Mohamed Ketata"
-    Content = "One or two sentences: who you are, what you're learning, what you build."
+    Content = """
+IT student in Tunisia learning cloud infrastructure and DevOps by building real projects. I worked on open-source VDI at Safozi, and I'm now working through the LearnToCloud guide.
+
+This blog documents what I build, what breaks, and how I fix it. Start with the [About page](/about/) or browse the [posts](/posts/).
+"""
 
   [[params.socialIcons]]
     name = "github"
-    url = "https://github.com/YOUR_USERNAME"
+    url = "https://github.com/ketatamo4"
 
   [[params.socialIcons]]
     name = "linkedin"
-    url = "https://www.linkedin.com/in/YOUR_PROFILE"
+    url = "https://www.linkedin.com/in/mohamed-ketata-831244395"
 
 [menu]
   [[menu.main]]
@@ -32,8 +37,3 @@ theme = "PaperMod"
     name = "About"
     url = "/about/"
     weight = 20
-  [[menu.main]]
-    identifier = "tags"
-    name = "Tags"
-    url = "/tags/"
-    weight = 30
